@@ -42,9 +42,10 @@ body{
 
         #star{
             position: absolute;
-            left: 32px;
-            top: 32px;
-            display: none;
+            left: 12px;
+            top: 10px;
+            display: block;
+
         }
     }
 #pt{
@@ -65,6 +66,32 @@ body{
         line-height: 25px;
     }
 }
+#but{
+
+margin-left: 25px;
+position: absolute;
+bottom: 100px;
+
+    .rate{
+        border: none;
+        background-color: $vdblue;
+        color: $lgrey;
+        height: 58px;
+        width: 58px;
+        border-radius: 100px;
+        font-family: 'OverPass';
+        font-size: 17px;
+        margin: 5px;
+        margin-left: 10px;
+        
+    }
+
+    .rate:hover{
+       background-color: $orange;
+       color: #ffff; 
+    }
+}
+
 
 #sub{
     background-color: $orange;
@@ -72,14 +99,23 @@ body{
     border-radius: 100px;
     width: 370px;
     height: 50px;
-    margin: 30px;
     position: absolute;
-    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 30px;
     color: #ffff;
     font-family: 'OverPass';
     letter-spacing: 4px;
     font-weight: 700;
     text-align: center;
+    transition: 0.3s ease-in;
 }
+
+#sub:hover{
+    background-color: white;
+    color: $orange;
+    cursor: pointer;
     
+
+    }
 }

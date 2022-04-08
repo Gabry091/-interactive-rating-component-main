@@ -31,9 +31,9 @@ body {
 
 #n1 #stardiv #star {
   position: absolute;
-  left: 32px;
-  top: 32px;
-  display: none;
+  left: 12px;
+  top: 10px;
+  display: block;
 }
 
 #n1 #pt #title1 {
@@ -53,19 +53,53 @@ body {
   line-height: 25px;
 }
 
+#n1 #but {
+  margin-left: 25px;
+  position: absolute;
+  bottom: 100px;
+}
+
+#n1 #but .rate {
+  border: none;
+  background-color: #121417;
+  color: #959eac;
+  height: 58px;
+  width: 58px;
+  border-radius: 100px;
+  font-family: 'OverPass';
+  font-size: 17px;
+  margin: 5px;
+  margin-left: 10px;
+}
+
+#n1 #but .rate:hover {
+  background-color: #fb7413;
+  color: #ffff;
+}
+
 #n1 #sub {
   background-color: #fb7413;
   border: none;
   border-radius: 100px;
   width: 370px;
   height: 50px;
-  margin: 30px;
   position: absolute;
-  bottom: 10px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  bottom: 30px;
   color: #ffff;
   font-family: 'OverPass';
   letter-spacing: 4px;
   font-weight: 700;
   text-align: center;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+#n1 #sub:hover {
+  background-color: white;
+  color: #fb7413;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
