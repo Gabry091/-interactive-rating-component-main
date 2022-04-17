@@ -30,6 +30,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: $dblue;
+    display: none;
 
     #stardiv{
         background-color: rgb(78, 45, 61);
@@ -50,7 +51,7 @@ body{
     }
 #pt{
     #title1{
-        font-family: 'OverPass';
+        font-family: 'OverPass' sans-serif !important;
         color: white;
         margin-left: 30px;
         margin-top: 100px;
@@ -62,7 +63,7 @@ body{
         margin: 30px;
         margin-top: -10px;
         font-size: $fs;
-        font-family: 'OverPass';
+        font-family: 'OverPass' sans-serif !important;
         line-height: 25px;
     }
 }
@@ -83,12 +84,19 @@ bottom: 100px;
         font-size: 17px;
         margin: 5px;
         margin-left: 10px;
+        transition: .3s ease-in;
         
+    }
+
+    .rate:focus{
+        background-color: $mgrey;
+        color: #ffff;
     }
 
     .rate:hover{
        background-color: $orange;
        color: #ffff; 
+       cursor: pointer;
     }
 }
 
@@ -118,4 +126,6 @@ bottom: 100px;
     
 
     }
+
+
 }

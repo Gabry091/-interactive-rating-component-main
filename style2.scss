@@ -1,0 +1,35 @@
+//* START VARIBLES 
+// start colors
+//primary colors
+$orange: hsl(25, 97%, 53%);
+
+//neutral colors
+$white: #ffff;
+$lgrey: hsl(217, 12%, 63%);
+$mgrey: hsl(216, 12%, 54%);
+$dblue: hsl(213, 19%, 18%);
+$vdblue: hsl(216, 12%, 8%);
+
+//typography
+$fs: 15px; // paragraph
+
+
+#n2{
+    width: 430px;
+    height: 400px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $dblue;
+
+    #tel{
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-53%);
+
+    
+    }
+}

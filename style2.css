@@ -1,0 +1,20 @@
+#n2 {
+  width: 430px;
+  height: 400px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #252d37;
+}
+
+#n2 #tel {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  -webkit-transform: translate(-53%);
+          transform: translate(-53%);
+}
+/*# sourceMappingURL=style2.css.map */

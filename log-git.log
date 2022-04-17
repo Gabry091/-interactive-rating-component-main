@@ -1,0 +1,11 @@
+[33mcommit c287f31a55096bfe991fd3b147d9dae1bfa8aad9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Gabry091 <gabriele2k9@gmail.com>
+Date:   Fri Apr 8 21:33:49 2022 +0200
+
+    added an active state of the buttons with the class 'rate'
+
+[33mcommit 9412c03e64f21bf1916e4070138fc1d5df145f67[m
+Author: Gabry091 <gabriele2k9@gmail.com>
+Date:   Fri Apr 1 20:45:48 2022 +0200
+
+    created structure and paragraph/button styles
